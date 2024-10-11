@@ -161,8 +161,8 @@
             </div>
             <div class="mt-50 text-start wow animate__ animate__fadeIn animated" data-wow-delay=".4s"
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a
-                class="btn btn-brand-1 hover-up" href="#">Contact Us</a><a class="btn btn-default font-sm-bold hover-up"
-                href="#">Learn More
+                class="btn btn-brand-1 hover-up" href="#" onclick="showAlert()">Contact Us</a><a
+                class="btn btn-default font-sm-bold hover-up" href="#" onclick="showAlert()">Learn More
                 <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
@@ -226,12 +226,15 @@
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Get query to your questions
             </p>
 
-
+            <!-- Social medila link -->
             <div class="mt-10 wow animate__ animate__fadeInUp animated" data-wow-delay=".0s"
               style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;"><a
-                class="btn btn-tag-circle mr-10 mb-10" href="#">Calling</a><a class="btn btn-tag-circle mr-10 mb-10"
-                href="#">Google map</a><a class="btn btn-tag-circle mr-10 mb-10" href="#">Facebook</a><a
-                class="btn btn-tag-circle mb-10" href="#">WhatsApp</a></div>
+                class="btn btn-tag-circle mr-10 mb-10" href="tel:+91 7541865329">Calling</a><a class="btn btn-tag-circle mr-10 mb-10"
+                href="https://www.google.com/maps?q=23.3620957,85.3083109&z=17&hl=en">Google map</a>
+                <a class="btn btn-tag-circle mr-10 mb-10" href="https://www.facebook.com/share/p/ahqhceiE9MZs1MP4/">Facebook</a><a
+                class="btn btn-tag-circle mb-10"
+                href="https://api.whatsapp.com/send?phone=+91 07488410234&amp;text=Hello %20I%20am%20looking%20for%20 PG%20and Mess Services..%2Cplease%20contact%20me.%20on%20my%20whatsApp%20">WhatsApp</a>
+            </div>
           </div>
           <div class="col-lg-7 mb-40  d-md-block">
             <div class="box-banner-help">
@@ -265,14 +268,16 @@
                 <div class="box-button mt-30">
                   <a class="btn btn-brand-1 hover-up" href="#" onclick="showAlert()">Details</a>
                   <a class="btn btn-default font-sm-bold hover-up" href="#" onclick="showAlert()">
-                      Visit
-                      <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                      </svg>
+                    Visit
+                    <svg class="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
                   </a>
-              </div>
-              
-                
+                </div>
+
+
 
               </div>
 
@@ -305,18 +310,18 @@
             <h5 class="mb-10 color-brand-1">Home</h5>
             <ul class="menu-footer">
 
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">Rules</a></li>
-              <li><a href="#">Visit</a></li>
+              <li><a href="#" onclick="showOverviewAlert()">Overview</a></li>
+              <li><a href="#" onclick="showRulesAlert()">Rules</a></li>
+              <li><a href="#" onclick="showVisitAlert()">Visit</a></li>
             </ul>
           </div>
           <div class="col-lg-3 width-16 mb-30">
             <h5 class="mb-10 color-brand-1">About us</h5>
             <ul class="menu-footer">
 
-              <li><a href="#">Security Room </a></li>
-              <li><a href="#">Cleaner Bed</a></li>
-              <li><a href="#">Medical Facilities</a></li>
+              <li><a href="#" onclick="showSecutyAlert()">Security Room </a></li>
+              <li><a href="#" onclick="showCleanerAlert()">Cleaner Bed</a></li>
+              <li><a href="#" onclick="showMedicalAlert()">Medical Facilities</a></li>
             </ul>
           </div>
           <div class="col-lg-3 width-16 mb-30">
